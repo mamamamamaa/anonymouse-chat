@@ -1,0 +1,25 @@
+{
+  "name": "anonymouse-chat",
+  "version": "1.0.0",
+  "description": "first try to create anonymouse chat with socket.io on heroku :9",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamamamamaa/anonymouse-chat.git"
+  },
+  "author": "Max Denishchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamamamamaa/anonymouse-chat/issues"
+  },
+  "homepage": "https://github.com/mamamamamaa/anonymouse-chat#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  }
+}
